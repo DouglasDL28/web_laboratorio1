@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Laboratorio 1 Web</title>
+</head>
+
+<body>
+    <!-- MAIN CONTAINER -->
+    <div class="main_container">
+        <!--HEADER-->
+        <header class="header">
+            <div class="main_title">
+                <h1>Colegio Montano</h1>
+                <h4>Libros electrónicos</h4>
+            </div>
+            <div class="passwords">
+                <img src="images/lock.jpg" alt="lock">
+                <div class="passwords_title">Contraseñas</div>
+            </div>
+            <div class="user_info">
+                <div class="user_name">John Doe</div>
+                <button class="user_info_button" style="background-image: url(images/user_info_button.png)"></button>
+            </div>
+        </header>
+
+        <!--CONTENT CONTAINER-->
+        <div class="content_container">
+            <!--PACKAGES CONTAINER-->
+            <div class="packages_container">
+                <div class="packages">
+                    Paquetes
+                    <li>Primero Básico (8)</li>
+                    <li>Segundo Básico (12)</li>
+                    <li>Tercero Básico (40)</li>
+                    <li>Cuarto Bachillerato en Ciencias y Letras (5)</li>
+                    <li>Quinto Bachillerato en Ciencias y Letras (5)</li>
+                    <li>Cuarto Bachillerato en Ciencias y Letras (5)</li>
+                    <li>Quinto Bachillerato en Ciencias y Letras (5)</li>
+                    <div class="add_packages">
+                        <h4> AGREGAR PAQUETE:</h4>
+                        <div class="package_input">
+                            <input type="text">
+                            <button class="add_package_btn" style="background-image: url(images/plus_sign.png)"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--INSTANCE CONTAINER-->
+            <div class="instance_container">
+                <!--CURRENT PACKAGE MANAGER-->
+                <div class="current_package_manager">
+                    <div class="package_title">Primero Básico
+                        <img src="images/write.png" style="width: 6rem;" alt="write img">
+                        <img src="images/trash.png" style="width: 5rem;" alt="trash">
+                    </div>
+
+                    <div class="package_buttons">
+                        <button class="add_book_btn">AGREGAR LIBRO</button>
+                        <button class="add_category_btn">AGREGAR CATEGORIA</button>
+                    </div>
+
+                </div>
+
+                <!--LANGUAGE MANAGER-->
+                <div class="language_manager">
+                    <div class="spanish">Idioma Español
+                        <button class="trash_button"></button>
+                    </div>
+                    <div class="english">Idioma Inglés
+                        <button class="trash_button"></button>
+                    </div>
+                </div>
+
+                <!--BOOK CONTAINER-->
+                <div class="books_container">
+                    <!--Fisica de Serway-->
+                    <div class="book">
+                        <div class="book__image" style="background-image: url(images/fisica_serway.jpg)"></div>
+                        <div class="book__footer">
+                            <div class="book__meta">
+                                <div class="book__title">
+                                    Física de Serway
+                                </div>
+                                <div class="book__size">
+                                    15mb
+                                </div>
+                            </div>
+                            <div class="book__actions">
+                                <button class="book__more"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Cálculo-->
+                    <div class="book">
+                        <div class="book__image" style="background-image: url(images/calculo.jpg);"></div>
+                        <div class="book__footer">
+                            <div class="book__meta">
+                                <div class="book__title">
+                                    Cálculo
+                                </div>
+                                <div class="book__size">
+                                    15mb
+                                </div>
+                            </div>
+                            <div class="book__actions">
+                                <button class="book__more"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Matemáticas-->
+                    <div class="book">
+                        <div class="book__image" style="background-image: url(images/matematicas.jpg)"></div>
+                        <div class="book__footer">
+                            <div class="book__meta">
+                                <div class="book__title">
+                                    Matemáticas
+                                </div>
+                                <div class="book__size">
+                                    15mb
+                                </div>
+                            </div>
+                            <div class="book__actions">
+                                <button class="book__more"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Little Prince-->
+                    <div class="book">
+                        <div class="book__image" style="background-image: url(images/little_prince.jpg)"></div>
+                        <div class="book__footer">
+                            <div class="book__meta">
+                                <div class="book__title">
+                                    El principito
+                                </div>
+                                <div class="book__size">
+                                    15mb
+                                </div>
+                            </div>
+                            <div class="book__actions">
+                                <button class="book__more"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--BOOKS-->
+    </div>
+
+</body>
+
+</html>
